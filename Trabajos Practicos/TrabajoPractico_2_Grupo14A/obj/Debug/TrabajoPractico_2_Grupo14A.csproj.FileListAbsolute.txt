@@ -1,0 +1,10 @@
+C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOSITORIO_GITHUB\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\bin\Debug\TrabajoPractico_2_Grupo14A.exe.config
+C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOSITORIO_GITHUB\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\bin\Debug\TrabajoPractico_2_Grupo14A.exe
+C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOSITORIO_GITHUB\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\bin\Debug\TrabajoPractico_2_Grupo14A.pdb
+C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOSITORIO_GITHUB\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOSITORIO_GITHUB\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.Form1.resources
+C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOSITORIO_GITHUB\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.Properties.Resources.resources
+C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOSITORIO_GITHUB\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.csproj.GenerateResource.cache
+C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOSITORIO_GITHUB\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOSITORIO_GITHUB\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.exe
+C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOSITORIO_GITHUB\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.pdb
