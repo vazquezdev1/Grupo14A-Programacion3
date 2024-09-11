@@ -10,3 +10,15 @@ C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOS
 C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOSITORIO_GITHUB\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.pdb
 C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOSITORIO_GITHUB\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.Frm2_VentanaPrincipalArticulos.resources
 C:\Users\diego\OneDrive\Desktop\ARCHIVOS\UTN\PROGRAMACION_III_MAXI_VIERNES\REPOSITORIO_GITHUB\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.Frm3_ListadoArticulos.resources
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\bin\Debug\TrabajoPractico_2_Grupo14A.exe.config
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\bin\Debug\TrabajoPractico_2_Grupo14A.exe
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\bin\Debug\TrabajoPractico_2_Grupo14A.pdb
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.csproj.AssemblyReference.cache
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.Form1.resources
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.Frm2_VentanaPrincipalArticulos.resources
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.Frm3_ListadoArticulos.resources
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.Properties.Resources.resources
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.csproj.GenerateResource.cache
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.csproj.CoreCompileInputs.cache
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.exe
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.pdb

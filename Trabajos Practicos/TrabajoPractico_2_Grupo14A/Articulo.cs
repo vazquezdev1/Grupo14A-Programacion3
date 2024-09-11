@@ -13,6 +13,9 @@ namespace TrabajoPractico_2_Grupo14A
 
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
+
+        public string UrlImagen { get; set; }
+
         //public float Precio { get; set; }
     }
 }

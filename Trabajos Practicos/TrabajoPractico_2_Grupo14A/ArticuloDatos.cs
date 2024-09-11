@@ -19,9 +19,10 @@ namespace TrabajoPractico_2_Grupo14A
             try
             {
                 conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=false; user=sa; password=123456";
+                //conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true";
                 // para windows authentication se usa --> integrated security=true y no se pone user y pass
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "SELECT Id, Codigo, Nombre, Descripcion FROM ARTICULOS";
+                comando.CommandText = "SELECT a.Id, Codigo, Nombre, Descripcion, ImagenUrl FROM ARTICULOS a, IMAGENES i WHERE a.Id = IdArticulo";
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -34,6 +35,7 @@ namespace TrabajoPractico_2_Grupo14A
                     aux.Codigo = lector.GetString(1);
                     aux.Nombre = lector.GetString(2);
                     aux.Descripcion = (string)lector["Descripcion"]; // Esta opcion realmente es mas comoda
+                    aux.UrlImagen = (string)lector["ImagenUrl"];
                     //aux.Precio = lector.GetFloat(4);
 
                     lista.Add(aux);

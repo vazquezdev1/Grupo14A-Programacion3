@@ -29,7 +29,7 @@ namespace TrabajoPractico_2_Grupo14A
             }
 
             Frm3_ListadoArticulos ventanaListadoArticulos = new Frm3_ListadoArticulos();
-            ventanaListadoArticulos.MdiParent = this;
+            //ventanaListadoArticulos.MdiParent = this;
             ventanaListadoArticulos.Show();
         }
     }
