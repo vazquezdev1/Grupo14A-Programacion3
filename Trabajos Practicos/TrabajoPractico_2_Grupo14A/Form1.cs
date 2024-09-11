@@ -25,6 +25,8 @@ namespace TrabajoPractico_2_Grupo14A
             if(userName == "admin")
             {
                 MessageBox.Show("Ingresando al sistema..." + userName);
+                Frm2_VentanaPrincipalArticulos ventanaPrincipal = new Frm2_VentanaPrincipalArticulos();
+                ventanaPrincipal.ShowDialog();
             }
             else
             {

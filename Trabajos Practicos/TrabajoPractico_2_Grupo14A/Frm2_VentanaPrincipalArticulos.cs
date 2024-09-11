@@ -16,5 +16,21 @@ namespace TrabajoPractico_2_Grupo14A
         {
             InitializeComponent();
         }
+
+        private void listarTodosLosArticulosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (var item in Application.OpenForms)
+            {
+                if (item.GetType() == typeof(Frm3_ListadoArticulos))
+                {
+                    MessageBox.Show("No puede abrir más de una vez esta ventana");
+                    return;
+                }
+            }
+
+            Frm3_ListadoArticulos ventanaListadoArticulos = new Frm3_ListadoArticulos();
+            ventanaListadoArticulos.MdiParent = this;
+            ventanaListadoArticulos.Show();
+        }
     }
 }

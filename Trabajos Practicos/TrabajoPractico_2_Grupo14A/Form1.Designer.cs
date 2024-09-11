@@ -37,27 +37,28 @@
             // 
             // btnInicio
             // 
-            this.btnInicio.Location = new System.Drawing.Point(293, 219);
+            this.btnInicio.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnInicio.Location = new System.Drawing.Point(301, 254);
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.Size = new System.Drawing.Size(132, 52);
-            this.btnInicio.TabIndex = 0;
+            this.btnInicio.TabIndex = 3;
             this.btnInicio.Text = "INICIAR SISTEMA";
-            this.btnInicio.UseVisualStyleBackColor = true;
+            this.btnInicio.UseVisualStyleBackColor = false;
             this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
             // LblMsgBienvenida
             // 
             this.LblMsgBienvenida.AutoSize = true;
-            this.LblMsgBienvenida.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMsgBienvenida.Location = new System.Drawing.Point(210, 68);
+            this.LblMsgBienvenida.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMsgBienvenida.Location = new System.Drawing.Point(160, 53);
             this.LblMsgBienvenida.Name = "LblMsgBienvenida";
-            this.LblMsgBienvenida.Size = new System.Drawing.Size(295, 25);
-            this.LblMsgBienvenida.TabIndex = 1;
+            this.LblMsgBienvenida.Size = new System.Drawing.Size(390, 33);
+            this.LblMsgBienvenida.TabIndex = 0;
             this.LblMsgBienvenida.Text = "Bienvenido al sistema SAA";
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(280, 153);
+            this.txtUserName.Location = new System.Drawing.Point(284, 192);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(165, 20);
             this.txtUserName.TabIndex = 2;
@@ -65,10 +66,11 @@
             // lblIngreseUserName
             // 
             this.lblIngreseUserName.AutoSize = true;
-            this.lblIngreseUserName.Location = new System.Drawing.Point(116, 160);
+            this.lblIngreseUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngreseUserName.Location = new System.Drawing.Point(107, 159);
             this.lblIngreseUserName.Name = "lblIngreseUserName";
-            this.lblIngreseUserName.Size = new System.Drawing.Size(146, 13);
-            this.lblIngreseUserName.TabIndex = 3;
+            this.lblIngreseUserName.Size = new System.Drawing.Size(216, 20);
+            this.lblIngreseUserName.TabIndex = 1;
             this.lblIngreseUserName.Text = "Ingrese el usuario de acceso:";
             // 
             // btnDevsBy
@@ -86,13 +88,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ClientSize = new System.Drawing.Size(731, 429);
             this.Controls.Add(this.btnDevsBy);
             this.Controls.Add(this.lblIngreseUserName);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.LblMsgBienvenida);
             this.Controls.Add(this.btnInicio);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(747, 468);
+            this.MinimumSize = new System.Drawing.Size(747, 468);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SAA - Sistema Administrador Articulos";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.ResumeLayout(false);
