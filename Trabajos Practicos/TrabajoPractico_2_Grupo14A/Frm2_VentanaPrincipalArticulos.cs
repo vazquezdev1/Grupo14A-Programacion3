@@ -32,5 +32,12 @@ namespace TrabajoPractico_2_Grupo14A
             //ventanaListadoArticulos.MdiParent = this;
             ventanaListadoArticulos.Show();
         }
+
+        private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Frm4_VerArticulo verArticulo = new Frm4_VerArticulo();
+            verArticulo.ShowDialog();
+        }
     }
 }

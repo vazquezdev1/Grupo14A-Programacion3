@@ -1,0 +1,9 @@
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\negocio\bin\Debug\negocio.dll
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\negocio\bin\Debug\negocio.pdb
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\negocio\bin\Debug\dominio.dll
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\negocio\bin\Debug\dominio.pdb
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\negocio\obj\Debug\negocio.csproj.Up2Date
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\negocio\obj\Debug\negocio.dll
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\negocio\obj\Debug\negocio.pdb

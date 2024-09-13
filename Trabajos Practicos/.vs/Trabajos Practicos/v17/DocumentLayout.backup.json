@@ -3,44 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|c:\\users\\u633633\\documents\\utn\\tp-winform-equipo-14-a\\trabajos practicos\\trabajopractico_2_grupo14a\\articulodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\articulodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|c:\\users\\u633633\\documents\\utn\\tp-winform-equipo-14-a\\trabajos practicos\\trabajopractico_2_grupo14a\\frm4_verarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm4_verarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\trabajopractico_2_grupo14a\\frm2_ventanaprincipalarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm2_ventanaprincipalarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\trabajopractico_2_grupo14a\\frm2_ventanaprincipalarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm2_ventanaprincipalarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|c:\\users\\u633633\\documents\\utn\\tp-winform-equipo-14-a\\trabajos practicos\\trabajopractico_2_grupo14a\\frm3_listadoarticulos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm3_listadoarticulos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\trabajopractico_2_grupo14a\\frm3_listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm3_listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|c:\\users\\u633633\\documents\\utn\\tp-winform-equipo-14-a\\trabajos practicos\\trabajopractico_2_grupo14a\\frm4_verarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm4_verarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\trabajopractico_2_grupo14a\\frm3_listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm3_listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|c:\\users\\u633633\\documents\\utn\\tp-winform-equipo-14-a\\trabajos practicos\\trabajopractico_2_grupo14a\\frm2_ventanaprincipalarticulos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm2_ventanaprincipalarticulos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63E8A42F-92C0-412C-B213-3D643910C844}|negocio\\negocio.csproj|c:\\users\\u633633\\documents\\utn\\tp-winform-equipo-14-a\\trabajos practicos\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63E8A42F-92C0-412C-B213-3D643910C844}|negocio\\negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\trabajopractico_2_grupo14a\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63E8A42F-92C0-412C-B213-3D643910C844}|negocio\\negocio.csproj|c:\\users\\u633633\\documents\\utn\\tp-winform-equipo-14-a\\trabajos practicos\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63E8A42F-92C0-412C-B213-3D643910C844}|negocio\\negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2605451D-03B2-496C-A389-0545F8A7C088}|dominio\\dominio.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2605451D-03B2-496C-A389-0545F8A7C088}|dominio\\dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63E8A42F-92C0-412C-B213-3D643910C844}|negocio\\negocio.csproj|c:\\users\\u633633\\documents\\utn\\tp-winform-equipo-14-a\\trabajos practicos\\negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63E8A42F-92C0-412C-B213-3D643910C844}|negocio\\negocio.csproj|solutionrelative:negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\trabajopractico_2_grupo14a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\trabajopractico_2_grupo14a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\trabajopractico_2_grupo14a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\trabajopractico_2_grupo14a\\frm2_ventanaprincipalarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm2_ventanaprincipalarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63E8A42F-92C0-412C-B213-3D643910C844}|negocio\\negocio.csproj|c:\\users\\u633633\\documents\\utn\\tp-winform-equipo-14-a\\trabajos practicos\\negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63E8A42F-92C0-412C-B213-3D643910C844}|negocio\\negocio.csproj|solutionrelative:negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2605451D-03B2-496C-A389-0545F8A7C088}|dominio\\dominio.csproj|c:\\users\\u633633\\documents\\utn\\tp-winform-equipo-14-a\\trabajos practicos\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2605451D-03B2-496C-A389-0545F8A7C088}|dominio\\dominio.csproj|solutionrelative:dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2605451D-03B2-496C-A389-0545F8A7C088}|dominio\\dominio.csproj|c:\\users\\u633633\\documents\\utn\\tp-winform-equipo-14-a\\trabajos practicos\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2605451D-03B2-496C-A389-0545F8A7C088}|dominio\\dominio.csproj|solutionrelative:dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\trabajopractico_2_grupo14a\\frm3_listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm3_listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\trabajopractico_2_grupo14a\\frm2_ventanaprincipalarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm2_ventanaprincipalarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|c:\\users\\u633633\\documents\\utn\\tp-winform-equipo-14-a\\trabajos practicos\\trabajopractico_2_grupo14a\\frm4_verarticulo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm4_verarticulo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\trabajopractico_2_grupo14a\\frm3_listadoarticulos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm3_listadoarticulos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\trabajopractico_2_grupo14a\\frm2_ventanaprincipalarticulos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67A5EEB8-B373-4E5C-A3E4-83C51A29B921}|TrabajoPractico_2_Grupo14A\\TrabajoPractico_2_Grupo14A.csproj|solutionrelative:trabajopractico_2_grupo14a\\frm2_ventanaprincipalarticulos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,15 +82,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Frm4_VerArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm4_VerArticulo.cs",
+              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Frm4_VerArticulo.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm4_VerArticulo.cs",
+              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\Frm4_VerArticulo.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T00:22:01.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\negocio\\ArticuloNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\negocio\\ArticuloNegocio.cs",
+              "RelativeToolTip": "negocio\\ArticuloNegocio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T19:56:27.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\negocio\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "negocio\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\negocio\\AccesoDatos.cs",
+              "RelativeToolTip": "negocio\\AccesoDatos.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwDoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T22:09:23.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\dominio\\Articulo.cs",
+              "RelativeToolTip": "dominio\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T19:56:11.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Frm4_VerArticulo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm4_VerArticulo.cs",
+              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Frm4_VerArticulo.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm4_VerArticulo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\Frm4_VerArticulo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T22:39:12.856Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Frm3_ListadoArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.cs",
+              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.cs",
+              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:09:40.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MarcaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\negocio\\MarcaNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\MarcaNegocio.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\negocio\\MarcaNegocio.cs",
+              "RelativeToolTip": "negocio\\MarcaNegocio.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T23:19:01.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Form1.cs",
+              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Form1.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T01:58:52.429Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Frm2_VentanaPrincipalArticulos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm2_VentanaPrincipalArticulos.cs",
               "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Frm2_VentanaPrincipalArticulos.cs",
@@ -70,46 +208,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Frm3_ListadoArticulos.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.Designer.cs",
-              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.Designer.cs",
-              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.Designer.cs",
-              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "CategoriaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\negocio\\CategoriaNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\CategoriaNegocio.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\negocio\\CategoriaNegocio.cs",
+              "RelativeToolTip": "negocio\\CategoriaNegocio.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T19:28:17.166Z",
+              "WhenOpened": "2024-09-12T23:19:21.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Frm2_VentanaPrincipalArticulos.cs",
-              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm2_VentanaPrincipalArticulos.cs",
-              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Frm2_VentanaPrincipalArticulos.cs",
-              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm2_VentanaPrincipalArticulos.cs",
-              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\Frm2_VentanaPrincipalArticulos.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Form1.cs",
+              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Form1.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Form1.cs",
+              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\Form1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowCAAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T22:08:59.914Z",
+              "WhenOpened": "2024-09-09T02:05:17.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ArticuloDatos.cs",
-              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\ArticuloDatos.cs",
-              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\ArticuloDatos.cs",
-              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\ArticuloDatos.cs",
-              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\ArticuloDatos.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Marca.cs",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\dominio\\Marca.cs",
+              "RelativeDocumentMoniker": "dominio\\Marca.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\dominio\\Marca.cs",
+              "RelativeToolTip": "dominio\\Marca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T01:13:34.344Z",
+              "WhenOpened": "2024-09-12T23:16:39.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\dominio\\Categoria.cs",
+              "RelativeDocumentMoniker": "dominio\\Categoria.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\dominio\\Categoria.cs",
+              "RelativeToolTip": "dominio\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T23:17:31.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Frm3_ListadoArticulos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.cs",
               "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.cs",
@@ -121,7 +272,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
+              "Title": "Frm2_VentanaPrincipalArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm2_VentanaPrincipalArticulos.cs",
+              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Frm2_VentanaPrincipalArticulos.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm2_VentanaPrincipalArticulos.cs",
+              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\Frm2_VentanaPrincipalArticulos.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswCcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:08:59.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Frm4_VerArticulo.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm4_VerArticulo.Designer.cs",
+              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Frm4_VerArticulo.Designer.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm4_VerArticulo.Designer.cs",
+              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\Frm4_VerArticulo.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T22:42:41.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Frm3_ListadoArticulos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.Designer.cs",
+              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.Designer.cs",
+              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.Designer.cs",
+              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T19:28:17.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Frm2_VentanaPrincipalArticulos.Designer.cs",
               "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm2_VentanaPrincipalArticulos.Designer.cs",
               "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Frm2_VentanaPrincipalArticulos.Designer.cs",
@@ -131,59 +321,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T19:47:14.856Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Frm3_ListadoArticulos.cs",
-              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.cs",
-              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.cs",
-              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.cs",
-              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\Frm3_ListadoArticulos.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA9wBkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T01:09:40.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Articulo.cs",
-              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Articulo.cs",
-              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Articulo.cs",
-              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\Articulo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T01:01:37.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Form1.cs",
-              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Form1.cs",
-              "ToolTip": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Form1.cs",
-              "RelativeToolTip": "TrabajoPractico_2_Grupo14A\\Form1.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAswBwAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T02:05:17.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\u633633\\Documents\\UTN\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Form1.cs",
-              "RelativeDocumentMoniker": "TrabajoPractico_2_Grupo14A\\Form1.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\ARCHIVOS\\UTN\\PROGRAMACION_III_MAXI_VIERNES\\REPOSITORIO_GITHUB\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\diego\\OneDrive\\Desktop\\ARCHIVOS\\UTN\\PROGRAMACION_III_MAXI_VIERNES\\REPOSITORIO_GITHUB\\tp-winform-equipo-14-A\\Trabajos Practicos\\TrabajoPractico_2_Grupo14A\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T01:58:52.429Z"
             }
           ]
         }

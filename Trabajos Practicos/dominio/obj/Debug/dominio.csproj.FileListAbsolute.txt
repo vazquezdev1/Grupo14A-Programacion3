@@ -1,0 +1,6 @@
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\dominio\bin\Debug\dominio.dll
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\dominio\bin\Debug\dominio.pdb
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\dominio\obj\Debug\dominio.dll
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\dominio\obj\Debug\dominio.pdb

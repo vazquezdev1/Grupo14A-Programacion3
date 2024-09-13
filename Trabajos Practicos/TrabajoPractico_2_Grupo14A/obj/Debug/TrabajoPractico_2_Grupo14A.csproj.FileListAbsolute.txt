@@ -22,3 +22,9 @@ C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\Trabajo
 C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.csproj.CoreCompileInputs.cache
 C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.exe
 C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.pdb
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\bin\Debug\dominio.dll
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\bin\Debug\negocio.dll
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\bin\Debug\dominio.pdb
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\bin\Debug\negocio.pdb
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoP.1FC039C7.Up2Date
+C:\Users\u633633\Documents\UTN\tp-winform-equipo-14-A\Trabajos Practicos\TrabajoPractico_2_Grupo14A\obj\Debug\TrabajoPractico_2_Grupo14A.Frm4_VerArticulo.resources

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using dominio;
+using negocio;
 
 namespace TrabajoPractico_2_Grupo14A
 {
@@ -20,17 +22,17 @@ namespace TrabajoPractico_2_Grupo14A
 
         private void Frm3_ListadoArticulos_Load(object sender, EventArgs e)
         {
-            ArticuloDatos articulos = new ArticuloDatos();
+            ArticuloNegocio articulos = new ArticuloNegocio();
             listaArticulos = articulos.listaArticulos();
             dgvArticulos.DataSource = listaArticulos;
             dgvArticulos.Columns["UrlImagen"].Visible = false;
-            cargarImagen(listaArticulos[0].UrlImagen);
+            cargarImagen(listaArticulos[0].urlImagen);
         }
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
         {
             Articulo seleccionado = (Articulo) dgvArticulos.CurrentRow.DataBoundItem;
-            cargarImagen(seleccionado.UrlImagen);
+            cargarImagen(seleccionado.urlImagen);
         }
 
         private void cargarImagen(String imagen)
