@@ -40,7 +40,7 @@
             this.dgvArticulos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dgvArticulos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvArticulos.Location = new System.Drawing.Point(14, 13);
-            this.dgvArticulos.MaximumSize = new System.Drawing.Size(542, 266);
+            this.dgvArticulos.MinimumSize = new System.Drawing.Size(542, 266);
             this.dgvArticulos.Name = "dgvArticulos";
             this.dgvArticulos.RowHeadersVisible = false;
             this.dgvArticulos.Size = new System.Drawing.Size(542, 266);
