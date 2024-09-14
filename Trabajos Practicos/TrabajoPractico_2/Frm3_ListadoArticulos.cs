@@ -22,11 +22,21 @@ namespace TrabajoPractico_2
 
         private void Frm3_ListadoArticulos_Load(object sender, EventArgs e)
         {
-            ArticuloNegocio articulos = new ArticuloNegocio();
-            listaArticulos = articulos.listaArticulos();
-            dgvArticulos.DataSource = listaArticulos;
-            dgvArticulos.Columns["UrlImagen"].Visible = false;
-            cargarImagen(listaArticulos[0].UrlImagen);
+            try
+            {
+                //Se revisa que hayan artículos y se cargan
+                ArticuloNegocio articulos = new ArticuloNegocio();
+                listaArticulos = articulos.listaArticulos();
+                dgvArticulos.DataSource = listaArticulos;
+                dgvArticulos.Columns["UrlImagen"].Visible = false;
+                cargarImagen(listaArticulos[0].UrlImagen);
+            }
+            //En caso de no haber registros en la Base de Datos
+            catch (ArgumentOutOfRangeException)
+            {
+                MessageBox.Show("Actualmente no se encuentran artículos cargados. Por favor, cargué un artículo primero antes de visualizar", "Sin Artículos Para Visualizar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Close();
+            }  
         }
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)

@@ -40,8 +40,17 @@ namespace TrabajoPractico_2
         }
         private void eliminarToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            foreach (var item in Application.OpenForms)
+            {
+                if (item.GetType() == typeof(Frm3_ListadoArticulos))
+                {
+                    MessageBox.Show("No puede abrir más de una vez esta ventana");
+                    return;
+                }
+            }
+
             Frm6_BorrarArticulo borrarArticulo = new Frm6_BorrarArticulo();
-            borrarArticulo.ShowDialog();
+            borrarArticulo.Show();
         }
     }
 }
