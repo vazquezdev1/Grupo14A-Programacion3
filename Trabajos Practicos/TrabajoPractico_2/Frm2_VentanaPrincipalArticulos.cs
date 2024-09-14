@@ -35,14 +35,13 @@ namespace TrabajoPractico_2
 
         private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
             Frm4_VerArticulo verArticulo = new Frm4_VerArticulo();
             verArticulo.ShowDialog();
         }
-
-        private void Frm2_VentanaPrincipalArticulos_Load(object sender, EventArgs e)
+        private void eliminarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Frm6_BorrarArticulo borrarArticulo = new Frm6_BorrarArticulo();
+            borrarArticulo.ShowDialog();
         }
     }
 }

@@ -69,7 +69,7 @@
             // 
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
             this.agregarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D1)));
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.agregarToolStripMenuItem.Text = "A&gregar";
             this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click);
             // 
@@ -77,15 +77,16 @@
             // 
             this.modificaToolStripMenuItem.Name = "modificaToolStripMenuItem";
             this.modificaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D2)));
-            this.modificaToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.modificaToolStripMenuItem.Text = "&Modifica";
+            this.modificaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modificaToolStripMenuItem.Text = "&Modificar";
             // 
             // eliminarToolStripMenuItem
             // 
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
             this.eliminarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D3)));
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.eliminarToolStripMenuItem.Text = "&Eliminar";
+            this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
             // 
             // articulosToolStripMenuItem
             // 
@@ -138,7 +139,6 @@
             this.Name = "Frm2_VentanaPrincipalArticulos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal Articulos";
-            this.Load += new System.EventHandler(this.Frm2_VentanaPrincipalArticulos_Load);
             this.mnsAcciones.ResumeLayout(false);
             this.mnsAcciones.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
