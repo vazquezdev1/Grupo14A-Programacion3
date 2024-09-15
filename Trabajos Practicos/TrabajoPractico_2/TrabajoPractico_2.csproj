@@ -96,6 +96,9 @@
     <EmbeddedResource Include="Frm4_VerArticulo.resx">
       <DependentUpon>Frm4_VerArticulo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm5_ModificarArticulo.resx">
+      <DependentUpon>Frm5_ModificarArticulo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm6_BorrarArticulo.resx">
       <DependentUpon>Frm6_BorrarArticulo.cs</DependentUpon>
     </EmbeddedResource>

@@ -22,7 +22,8 @@ namespace negocio
 
             try
             {
-                string consulta = "SELECT a.Id, a.Codigo, a.Nombre, a.Descripcion, a.Precio, m.Descripcion as Marca, c.Descripcion as Categoria, i.ImagenUrl FROM ARTICULOS a INNER JOIN IMAGENES i ON a.Id = i.IdArticulo INNER JOIN MARCAS m ON a.IdMarca = m.Id INNER JOIN CATEGORIAS c ON a.IdCategoria = c.Id";
+                //string consulta = "SELECT a.Id, a.Codigo, a.Nombre, a.Descripcion, a.Precio, m.Descripcion as Marca, c.Descripcion as Categoria, i.ImagenUrl FROM ARTICULOS a INNER JOIN IMAGENES i ON a.Id = i.IdArticulo INNER JOIN MARCAS m ON a.IdMarca = m.Id INNER JOIN CATEGORIAS c ON a.IdCategoria = c.Id";
+                string consulta = "SELECT a.Id, a.Codigo, a.Nombre, a.Descripcion, a.IdCategoria, a.IdMarca, a.Precio, m.Descripcion as Marca, c.Descripcion as Categoria, i.ImagenUrl FROM ARTICULOS a INNER JOIN IMAGENES i ON a.Id = i.IdArticulo INNER JOIN MARCAS m ON a.IdMarca = m.Id INNER JOIN CATEGORIAS c ON a.IdCategoria = c.Id";
 
                 datos.setearConsulta(consulta);
                 datos.ejecutarLectura();
@@ -34,10 +35,12 @@ namespace negocio
                     aux.Codigo = datos.Lector.GetString(1);
                     aux.Nombre = datos.Lector.GetString(2);
                     aux.Descripcion = (string)datos.Lector["Descripcion"]; // Esta opcion realmente es mas comoda
-                    aux.Precio = datos.Lector.GetDecimal(4);
+                    aux.Precio = datos.Lector.GetDecimal(6);
                     aux.Marca = new Marca();
+                    aux.Marca.Id = datos.Lector.GetInt32(4);
                     aux.Marca.Descripcion = (string)datos.Lector["Marca"];
                     aux.Categoria = new Categoria();
+                    aux.Categoria.Id = datos.Lector.GetInt32(5);
                     aux.Categoria.Descripcion = (string)datos.Lector["Categoria"];
                     aux.UrlImagen = (string)datos.Lector["ImagenUrl"];
 
@@ -106,6 +109,36 @@ namespace negocio
             {
                 datos.setearConsulta(sql);
                 datos.setearParametro("@Id", id);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+        public void modificar(Articulo artic)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            string sql = "update ARTICULOS set Codigo = @codigo, Nombre = @nombre, Descripcion = @descrip, idCategoria = @idcat, idMarca = @idmarc, Precio = @precio WHERE Id = @Id";
+
+            try
+            {
+                datos.setearConsulta(sql);
+
+                datos.setearParametro("@codigo", artic.Codigo);
+                datos.setearParametro("@nombre", artic.Nombre);
+                datos.setearParametro("@descrip", artic.Descripcion);
+                datos.setearParametro("@idcat", artic.Marca.Id);
+                datos.setearParametro("@idmarc", artic.Marca.Id);
+                datos.setearParametro("@precio", artic.Precio);
+                datos.setearParametro("@Id", artic.Id);
+                //datos.setearParametro("@imgurl", artic.UrlImagen);
+
                 datos.ejecutarAccion();
             }
             catch (Exception ex)

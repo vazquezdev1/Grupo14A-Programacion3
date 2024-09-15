@@ -29,6 +29,7 @@ namespace TrabajoPractico_2
                 listaArticulos = articulos.listaArticulos();
                 dgvArticulos.DataSource = listaArticulos;
                 dgvArticulos.Columns["UrlImagen"].Visible = false;
+                dgvArticulos.Columns["Id"].Visible = false;
                 cargarImagen(listaArticulos[0].UrlImagen);
             }
             //En caso de no haber registros en la Base de Datos

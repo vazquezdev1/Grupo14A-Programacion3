@@ -19,6 +19,15 @@ namespace TrabajoPractico_2
         public Frm4_VerArticulo()
         {
             InitializeComponent();
+            Text = "Alta de Articulo";
+        }
+
+        private Articulo articulo = null; // Atributo privado para usarlo con el MODIFICAR ARTICULO
+        public Frm4_VerArticulo(Articulo articulo) // Constructor utilizado para MODIFICAR ARTICULO
+        {
+            InitializeComponent();
+            this.articulo = articulo;
+            Text = "Modificacion de Articulo";
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -27,33 +36,70 @@ namespace TrabajoPractico_2
 
             if (confirmacion == DialogResult.Yes)
             {
-                Articulo articulo = new Articulo();
-
-                articulo.Codigo = txbCodigoArticulo.Text;
-                articulo.Nombre = txbNombreArticulo.Text;
-                articulo.Descripcion = txbDescripcionArticulo.Text;
-                articulo.Precio = decimal.Parse(txbPrecioArticulo.Text);
-                articulo.UrlImagen = txtUrlImg.Text;
-
-
-                // Validar Marca y Categoria
-                if (cmbMarcaArticulo.SelectedIndex < 0)
+                if(articulo == null)
                 {
-                    MessageBox.Show("Seleccione una marca válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                articulo.Marca = (Marca)cmbMarcaArticulo.SelectedItem;
+                    Articulo articulo = new Articulo();
 
-                if (cmbCategoriaArticulo.SelectedIndex < 0)
+                    articulo.Codigo = txbCodigoArticulo.Text;
+                    articulo.Nombre = txbNombreArticulo.Text;
+                    articulo.Descripcion = txbDescripcionArticulo.Text;
+                    articulo.Precio = decimal.Parse(txbPrecioArticulo.Text);
+                    articulo.UrlImagen = txtUrlImg.Text;
+
+                    // Validar Marca y Categoria
+                    if (cmbMarcaArticulo.SelectedIndex < 0)
+                    {
+                        MessageBox.Show("Seleccione una marca válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    articulo.Marca = (Marca)cmbMarcaArticulo.SelectedItem;
+
+                    if (cmbCategoriaArticulo.SelectedIndex < 0)
+                    {
+                        MessageBox.Show("Seleccione una categoría válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    articulo.Categoria = (Categoria)cmbCategoriaArticulo.SelectedItem;
+
+                    ArticuloNegocio articuloNegocio = new ArticuloNegocio();
+
+                    articuloNegocio.agregar(articulo);
+                    MessageBox.Show("El articulo se actualizó correctamente.", "Actualizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
                 {
-                    MessageBox.Show("Seleccione una categoría válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    articulo.Codigo = txbCodigoArticulo.Text;
+                    articulo.Nombre = txbNombreArticulo.Text;
+                    articulo.Descripcion = txbDescripcionArticulo.Text;
+                    articulo.Precio = decimal.Parse(txbPrecioArticulo.Text);
+                    articulo.UrlImagen = txtUrlImg.Text;
+
+                    // Validar Marca y Categoria
+                    if (cmbMarcaArticulo.SelectedIndex < 0)
+                    {
+                        MessageBox.Show("Seleccione una marca válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    articulo.Marca = (Marca)cmbMarcaArticulo.SelectedItem;
+
+                    if (cmbCategoriaArticulo.SelectedIndex < 0)
+                    {
+                        MessageBox.Show("Seleccione una categoría válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    articulo.Categoria = (Categoria)cmbCategoriaArticulo.SelectedItem;
+
+                    ArticuloNegocio articuloNegocio = new ArticuloNegocio();
+
+                    articuloNegocio.modificar(articulo);
+                    MessageBox.Show("El articulo se modifico correctamente.", "Modificado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                articulo.Categoria = (Categoria)cmbCategoriaArticulo.SelectedItem;
+                    
 
-                ArticuloNegocio articuloNegocio = new ArticuloNegocio();
 
-                articuloNegocio.agregar(articulo);
+                //if (articulo.Id != 0)
+                //{
+                //    articuloNegocio.modificar(articulo);
+                //    MessageBox.Show("El articulo se modifico correctamente.", "Modificado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //}
+ 
                 
-                MessageBox.Show("El articulo se actualizó correctamente.", "Actualizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 
                 this.Close();
                 
@@ -75,6 +121,17 @@ namespace TrabajoPractico_2
             cmbCategoriaArticulo.DataSource = categorias;
             cmbCategoriaArticulo.DisplayMember = "descripcion";
             cmbCategoriaArticulo.ValueMember = "id";
+
+            if(articulo != null)
+            {
+                txbNombreArticulo.Text = articulo.Nombre;
+                txbCodigoArticulo.Text = articulo.Codigo;
+                txbPrecioArticulo.Text = articulo.Precio.ToString();
+                txtUrlImg.Text = articulo.UrlImagen;
+                txbDescripcionArticulo.Text = articulo.Descripcion;
+                cmbMarcaArticulo.SelectedValue = articulo.Marca.Id;
+                cmbCategoriaArticulo.SelectedValue = articulo.Categoria.Id;
+            }
         }
 
     }
