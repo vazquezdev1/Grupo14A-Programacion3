@@ -61,6 +61,9 @@ namespace negocio
         {
             AccesoDatos datos = new AccesoDatos();
             string sql = "insert into ARTICULOS (codigo, nombre, descripcion, IdMarca, IdCategoria, precio)"+"values (@codigo, @nombre, @descripcion, @idMarca, @idCategoria, @precio)";
+            string sql2 = "select * from ARTICULOS where Codigo = @codigo";
+            string sql3 = "insert into IMAGENES (IdArticulo, ImagenUrl)" + "values (@IdArticulo, @ImagenUrl)";
+
             try
             {
                 datos.setearConsulta(sql);
@@ -71,6 +74,20 @@ namespace negocio
                 datos.setearParametro("@idMarca", articulo.Marca.Id);
                 datos.setearParametro("@idCategoria", articulo.Categoria.Id);
                 datos.ejecutarAccion();
+                datos.cerrarConexion();
+
+                datos.setearConsulta(sql2);
+                datos.ejecutarLectura();
+                Articulo aux = new Articulo();
+                datos.Lector.Read();
+                aux.Id = datos.Lector.GetInt32(0);
+                datos.cerrarConexion();
+
+                datos.setearConsulta(sql3);
+                datos.setearParametro("@IdArticulo", aux.Id);
+                datos.setearParametro("@ImagenUrl", articulo.UrlImagen);
+                datos.ejecutarAccion();
+
             }
             catch (Exception ex)
             {

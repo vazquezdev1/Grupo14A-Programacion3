@@ -70,6 +70,12 @@
     <Compile Include="Frm4_VerArticulo.Designer.cs">
       <DependentUpon>Frm4_VerArticulo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm5_ModificarArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm5_ModificarArticulo.Designer.cs">
+      <DependentUpon>Frm5_ModificarArticulo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm6_BorrarArticulo.cs">
       <SubType>Form</SubType>
     </Compile>

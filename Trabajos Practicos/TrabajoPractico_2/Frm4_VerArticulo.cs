@@ -33,6 +33,7 @@ namespace TrabajoPractico_2
                 articulo.Nombre = txbNombreArticulo.Text;
                 articulo.Descripcion = txbDescripcionArticulo.Text;
                 articulo.Precio = decimal.Parse(txbPrecioArticulo.Text);
+                articulo.UrlImagen = txtUrlImg.Text;
 
 
                 // Validar Marca y Categoria
@@ -75,5 +76,6 @@ namespace TrabajoPractico_2
             cmbCategoriaArticulo.DisplayMember = "descripcion";
             cmbCategoriaArticulo.ValueMember = "id";
         }
+
     }
 }
