@@ -23,8 +23,8 @@ namespace negocio
         public AccesoDatos()
         {
             // para windows authentication se usa --> integrated security=true y no se pone user y pass            
-            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=false; user=sa; password=123456");
-            //conexion = new SqlConnection("server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true");
+            //conexion = new SqlConnection("server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=false; user=sa; password=123456");
+            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true");
             comando = new SqlCommand();
         }
 
@@ -52,18 +52,20 @@ namespace negocio
             }
         }
 
-        public void ejecutarAccion()
+        public int ejecutarAccion()
         {
+            int filas = 0;
             comando.Connection = conexion;
             try
             {
                 conexion.Open();
-                comando.ExecuteNonQuery();
+                filas = comando.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
                 throw ex;
             }
+            return filas;
         }
 
         public void cerrarConexion()

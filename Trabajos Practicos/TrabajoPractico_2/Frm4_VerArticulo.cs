@@ -61,8 +61,15 @@ namespace TrabajoPractico_2
 
                     ArticuloNegocio articuloNegocio = new ArticuloNegocio();
 
-                    articuloNegocio.agregar(articulo);
-                    MessageBox.Show("El articulo se actualizó correctamente.", "Actualizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if(articuloNegocio.agregar(articulo) != 0)
+                    {
+                        MessageBox.Show("El articulo se actualizó correctamente.", "Actualizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al guardar artículo");
+                    }
+
                 }
                 else
                 {
@@ -134,5 +141,10 @@ namespace TrabajoPractico_2
             }
         }
 
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
     }
 }

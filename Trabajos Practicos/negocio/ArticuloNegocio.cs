@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient; //Libreria para DDBB
 using dominio;
+using System.Windows.Forms;
 
 namespace negocio
 {
@@ -60,8 +61,9 @@ namespace negocio
 
         }
 
-        public void agregar(Articulo articulo)
+        public int agregar(Articulo articulo)
         {
+            int respuesta = 0;
             AccesoDatos datos = new AccesoDatos();
             string sql = "insert into ARTICULOS (codigo, nombre, descripcion, IdMarca, IdCategoria, precio)"+"values (@codigo, @nombre, @descripcion, @idMarca, @idCategoria, @precio)";
             string sql2 = "select * from ARTICULOS where Codigo = @codigo";
@@ -76,7 +78,7 @@ namespace negocio
                 datos.setearParametro("@precio", articulo.Precio);
                 datos.setearParametro("@idMarca", articulo.Marca.Id);
                 datos.setearParametro("@idCategoria", articulo.Categoria.Id);
-                datos.ejecutarAccion();
+                respuesta = datos.ejecutarAccion();
                 datos.cerrarConexion();
 
                 datos.setearConsulta(sql2);
@@ -89,17 +91,19 @@ namespace negocio
                 datos.setearConsulta(sql3);
                 datos.setearParametro("@IdArticulo", aux.Id);
                 datos.setearParametro("@ImagenUrl", articulo.UrlImagen);
-                datos.ejecutarAccion();
+                respuesta = datos.ejecutarAccion();
 
             }
             catch (Exception ex)
             {
+                MessageBox.Show("Error " + ex);
                 throw ex;
             }
             finally
             {
                 datos.cerrarConexion();
             }
+            return respuesta;
         }
         public void eliminar(int id)
         {

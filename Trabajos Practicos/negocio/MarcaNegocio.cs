@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 
 namespace negocio
@@ -32,6 +33,7 @@ namespace negocio
             }
             catch (Exception ex)
             {
+                MessageBox.Show("Error al conectarse a la base de datos");
                 throw ex;
             }
             finally
