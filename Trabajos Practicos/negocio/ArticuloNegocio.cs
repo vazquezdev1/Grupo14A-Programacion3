@@ -129,6 +129,7 @@ namespace negocio
         {
             AccesoDatos datos = new AccesoDatos();
             string sql = "update ARTICULOS set Codigo = @codigo, Nombre = @nombre, Descripcion = @descrip, idCategoria = @idcat, idMarca = @idmarc, Precio = @precio WHERE Id = @Id";
+            string sql2 = "update IMAGENES set ImagenUrl = @imgurl WHERE IdArticulo = @Id";
 
             try
             {
@@ -141,8 +142,13 @@ namespace negocio
                 datos.setearParametro("@idmarc", artic.Marca.Id);
                 datos.setearParametro("@precio", artic.Precio);
                 datos.setearParametro("@Id", artic.Id);
-                //datos.setearParametro("@imgurl", artic.UrlImagen);
+                
 
+                datos.ejecutarAccion();
+                datos.cerrarConexion();
+
+                datos.setearConsulta(sql2);
+                datos.setearParametro("@imgurl", artic.UrlImagen);
                 datos.ejecutarAccion();
             }
             catch (Exception ex)

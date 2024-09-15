@@ -16,6 +16,8 @@ namespace TrabajoPractico_2
         public Frm2_VentanaPrincipalArticulos()
         {
             InitializeComponent();
+            DateTime fechaHoraActual = DateTime.Now;
+            tsslDatosEstadoSesion.Text = fechaHoraActual.ToString();
         }
 
         private void listarTodosLosArticulosToolStripMenuItem_Click(object sender, EventArgs e)

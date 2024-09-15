@@ -69,7 +69,7 @@
             // 
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
             this.agregarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D1)));
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.agregarToolStripMenuItem.Text = "A&gregar";
             this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click);
             // 
@@ -77,7 +77,7 @@
             // 
             this.modificaToolStripMenuItem.Name = "modificaToolStripMenuItem";
             this.modificaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D2)));
-            this.modificaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modificaToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.modificaToolStripMenuItem.Text = "&Modificar";
             this.modificaToolStripMenuItem.Click += new System.EventHandler(this.modificaToolStripMenuItem_Click);
             // 
@@ -85,7 +85,7 @@
             // 
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
             this.eliminarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D3)));
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.eliminarToolStripMenuItem.Text = "&Eliminar";
             this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
             // 
@@ -124,8 +124,8 @@
             // tsslDatosEstadoSesion
             // 
             this.tsslDatosEstadoSesion.Name = "tsslDatosEstadoSesion";
-            this.tsslDatosEstadoSesion.Size = new System.Drawing.Size(96, 17);
-            this.tsslDatosEstadoSesion.Text = "USUARIO FECHA";
+            this.tsslDatosEstadoSesion.Size = new System.Drawing.Size(44, 17);
+            this.tsslDatosEstadoSesion.Text = "FECHA";
             // 
             // Frm2_VentanaPrincipalArticulos
             // 
