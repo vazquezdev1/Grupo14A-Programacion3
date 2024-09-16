@@ -63,6 +63,20 @@ namespace TrabajoPractico_2_Grupo14A
 
             Frm4_VerArticulo modificar = new Frm4_VerArticulo(seleccionado);
             modificar.ShowDialog();
+
+            try
+            {
+                ArticuloNegocio articulos = new ArticuloNegocio();
+                listaArticulos = articulos.listaArticulos();
+                dgvArticulos.DataSource = listaArticulos;
+                dgvArticulos.Columns["UrlImagen"].Visible = false;
+                cargarImagen(listaArticulos[0].UrlImagen);
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                MessageBox.Show("Actualmente no se encuentran artículos cargados. Por favor, cargué un artículo primero antes de eliminar", "Sin Artículos Para Eliminar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Close();
+            }
         }
     }
 }

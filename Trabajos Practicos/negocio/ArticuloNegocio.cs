@@ -134,7 +134,6 @@ namespace negocio
             try
             {
                 datos.setearConsulta(sql);
-
                 datos.setearParametro("@codigo", artic.Codigo);
                 datos.setearParametro("@nombre", artic.Nombre);
                 datos.setearParametro("@descrip", artic.Descripcion);
@@ -142,8 +141,6 @@ namespace negocio
                 datos.setearParametro("@idmarc", artic.Marca.Id);
                 datos.setearParametro("@precio", artic.Precio);
                 datos.setearParametro("@Id", artic.Id);
-                
-
                 datos.ejecutarAccion();
                 datos.cerrarConexion();
 
