@@ -76,6 +76,8 @@
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.pbxArticulo);
             this.Controls.Add(this.dgvArticulos);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Frm5_ModificarArticulo";
             this.Text = "Frm5_ModificarArticulo";
             this.Load += new System.EventHandler(this.Frm5_ModificarArticulo_Load);

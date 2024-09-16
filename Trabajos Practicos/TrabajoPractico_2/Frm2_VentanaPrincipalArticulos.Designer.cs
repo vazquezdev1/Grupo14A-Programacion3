@@ -38,6 +38,7 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.tsslDatosEstadoSesion = new System.Windows.Forms.ToolStripStatusLabel();
+            this.filtrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnsAcciones.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -92,7 +93,8 @@
             // articulosToolStripMenuItem
             // 
             this.articulosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.listarTodosLosArticulosToolStripMenuItem});
+            this.listarTodosLosArticulosToolStripMenuItem,
+            this.filtrosToolStripMenuItem});
             this.articulosToolStripMenuItem.Name = "articulosToolStripMenuItem";
             this.articulosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.articulosToolStripMenuItem.Text = "Articulo&S";
@@ -126,6 +128,13 @@
             this.tsslDatosEstadoSesion.Name = "tsslDatosEstadoSesion";
             this.tsslDatosEstadoSesion.Size = new System.Drawing.Size(44, 17);
             this.tsslDatosEstadoSesion.Text = "FECHA";
+            // 
+            // filtrosToolStripMenuItem
+            // 
+            this.filtrosToolStripMenuItem.Name = "filtrosToolStripMenuItem";
+            this.filtrosToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.filtrosToolStripMenuItem.Text = "Filtros...";
+            this.filtrosToolStripMenuItem.Click += new System.EventHandler(this.filtrosToolStripMenuItem_Click);
             // 
             // Frm2_VentanaPrincipalArticulos
             // 
@@ -161,5 +170,6 @@
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel tsslDatosEstadoSesion;
+        private System.Windows.Forms.ToolStripMenuItem filtrosToolStripMenuItem;
     }
 }

@@ -70,5 +70,21 @@ namespace TrabajoPractico_2
             Frm5_ModificarArticulo modificarArticulo = new Frm5_ModificarArticulo();
             modificarArticulo.Show();
         }
+
+        private void filtrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (var item in Application.OpenForms)
+            {
+                if (item.GetType() == typeof(Frm7_FiltrarArticulos))
+                {
+                    MessageBox.Show("No puede abrir más de una vez esta ventana");
+                    return;
+                }
+            }
+
+            Frm7_FiltrarArticulos ventanaFiltroArticulos = new Frm7_FiltrarArticulos();
+            //ventanaListadoArticulos.MdiParent = this;
+            ventanaFiltroArticulos.Show();
+        }
     }
 }

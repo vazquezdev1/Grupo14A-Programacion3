@@ -75,6 +75,8 @@
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.pbxArticulo);
             this.Controls.Add(this.dgvArticulos);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(929, 382);
             this.Name = "Frm6_BorrarArticulo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
