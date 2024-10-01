@@ -149,26 +149,13 @@ namespace TrabajoPractico_2
                     articuloNegocio.modificar(articulo);
                     MessageBox.Show("El articulo se modificó correctamente.", "Modificado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                    
-
-
-                //if (articulo.Id != 0)
-                //{
-                //    articuloNegocio.modificar(articulo);
-                //    MessageBox.Show("El articulo se modifico correctamente.", "Modificado", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                //}
- 
-                
-                
                 this.Close();
                 
             }
         }
-
         private void btnVolver_Click(object sender, EventArgs e)
         {
             this.Close();
-
         }
     }
 }
