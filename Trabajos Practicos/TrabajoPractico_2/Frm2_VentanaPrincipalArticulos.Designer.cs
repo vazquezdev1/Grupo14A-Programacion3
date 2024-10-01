@@ -35,10 +35,10 @@
             this.eliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.articulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listarTodosLosArticulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.filtrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.tsslDatosEstadoSesion = new System.Windows.Forms.ToolStripStatusLabel();
-            this.filtrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnsAcciones.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -70,7 +70,7 @@
             // 
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
             this.agregarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D1)));
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.agregarToolStripMenuItem.Text = "A&gregar";
             this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click);
             // 
@@ -78,7 +78,7 @@
             // 
             this.modificaToolStripMenuItem.Name = "modificaToolStripMenuItem";
             this.modificaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D2)));
-            this.modificaToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.modificaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.modificaToolStripMenuItem.Text = "&Modificar";
             this.modificaToolStripMenuItem.Click += new System.EventHandler(this.modificaToolStripMenuItem_Click);
             // 
@@ -86,7 +86,7 @@
             // 
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
             this.eliminarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D3)));
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.eliminarToolStripMenuItem.Text = "&Eliminar";
             this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
             // 
@@ -96,8 +96,8 @@
             this.listarTodosLosArticulosToolStripMenuItem,
             this.filtrosToolStripMenuItem});
             this.articulosToolStripMenuItem.Name = "articulosToolStripMenuItem";
-            this.articulosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
-            this.articulosToolStripMenuItem.Text = "Articulo&S";
+            this.articulosToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
+            this.articulosToolStripMenuItem.Text = "Listado&S";
             // 
             // listarTodosLosArticulosToolStripMenuItem
             // 
@@ -105,6 +105,13 @@
             this.listarTodosLosArticulosToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
             this.listarTodosLosArticulosToolStripMenuItem.Text = "&Listar todos los articulos";
             this.listarTodosLosArticulosToolStripMenuItem.Click += new System.EventHandler(this.listarTodosLosArticulosToolStripMenuItem_Click);
+            // 
+            // filtrosToolStripMenuItem
+            // 
+            this.filtrosToolStripMenuItem.Name = "filtrosToolStripMenuItem";
+            this.filtrosToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.filtrosToolStripMenuItem.Text = "Filtros...";
+            this.filtrosToolStripMenuItem.Click += new System.EventHandler(this.filtrosToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
@@ -128,13 +135,6 @@
             this.tsslDatosEstadoSesion.Name = "tsslDatosEstadoSesion";
             this.tsslDatosEstadoSesion.Size = new System.Drawing.Size(44, 17);
             this.tsslDatosEstadoSesion.Text = "FECHA";
-            // 
-            // filtrosToolStripMenuItem
-            // 
-            this.filtrosToolStripMenuItem.Name = "filtrosToolStripMenuItem";
-            this.filtrosToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
-            this.filtrosToolStripMenuItem.Text = "Filtros...";
-            this.filtrosToolStripMenuItem.Click += new System.EventHandler(this.filtrosToolStripMenuItem_Click);
             // 
             // Frm2_VentanaPrincipalArticulos
             // 
