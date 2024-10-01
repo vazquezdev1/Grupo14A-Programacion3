@@ -24,13 +24,13 @@ namespace TrabajoPractico_2
             
             if(userName == "admin")
             {
-                MessageBox.Show("Ingresando al sistema..." + userName);
+                MessageBox.Show("Ingresando al sistema, " + userName);
                 Frm2_VentanaPrincipalArticulos ventanaPrincipal = new Frm2_VentanaPrincipalArticulos();
                 ventanaPrincipal.ShowDialog();
             }
             else
             {
-                MessageBox.Show("Nombre de usuario incorrecto...");
+                MessageBox.Show("Nombre de usuario incorrecto. Por favor, ingrese un nombre válido");
             }
             
             
@@ -38,12 +38,12 @@ namespace TrabajoPractico_2
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
-            MessageBox.Show("Muchas gracias por utilizar el sistema...");
+            MessageBox.Show("Muchas gracias por utilizar el sistema ¡Vuelva pronto!");
         }
 
         private void btnDevsBy_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Grupo 14A : Alejandro Gomez - Henry Vazquez - Pablo Felice");
+            MessageBox.Show("Grupo 14 A: Alejandro Gomez - Henry Vazquez - Pablo Felice");
         }
 
         private void Form1_Load(object sender, EventArgs e)

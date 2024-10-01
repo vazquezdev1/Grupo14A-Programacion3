@@ -38,18 +38,21 @@
             // btnInicio
             // 
             this.btnInicio.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnInicio.Location = new System.Drawing.Point(301, 254);
+            this.btnInicio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnInicio.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Location = new System.Drawing.Point(295, 249);
             this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Size = new System.Drawing.Size(132, 52);
+            this.btnInicio.Size = new System.Drawing.Size(141, 52);
             this.btnInicio.TabIndex = 3;
-            this.btnInicio.Text = "INICIAR SISTEMA";
+            this.btnInicio.Text = "Iniciar Sistema";
             this.btnInicio.UseVisualStyleBackColor = false;
             this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
             // LblMsgBienvenida
             // 
             this.LblMsgBienvenida.AutoSize = true;
-            this.LblMsgBienvenida.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMsgBienvenida.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMsgBienvenida.Location = new System.Drawing.Point(160, 53);
             this.LblMsgBienvenida.Name = "LblMsgBienvenida";
             this.LblMsgBienvenida.Size = new System.Drawing.Size(390, 33);
@@ -66,16 +69,17 @@
             // lblIngreseUserName
             // 
             this.lblIngreseUserName.AutoSize = true;
-            this.lblIngreseUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngreseUserName.Location = new System.Drawing.Point(258, 160);
+            this.lblIngreseUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngreseUserName.Location = new System.Drawing.Point(271, 150);
             this.lblIngreseUserName.Name = "lblIngreseUserName";
-            this.lblIngreseUserName.Size = new System.Drawing.Size(216, 20);
+            this.lblIngreseUserName.Size = new System.Drawing.Size(197, 18);
             this.lblIngreseUserName.TabIndex = 1;
-            this.lblIngreseUserName.Text = "Ingrese el usuario de acceso:";
+            this.lblIngreseUserName.Text = "Ingrese el usuario de acceso";
             // 
             // btnDevsBy
             // 
-            this.btnDevsBy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDevsBy.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDevsBy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDevsBy.Location = new System.Drawing.Point(588, 393);
             this.btnDevsBy.Name = "btnDevsBy";
             this.btnDevsBy.Size = new System.Drawing.Size(131, 24);
