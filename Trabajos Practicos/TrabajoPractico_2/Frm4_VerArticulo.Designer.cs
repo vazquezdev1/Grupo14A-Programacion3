@@ -48,11 +48,11 @@
             // 
             // txbPrecioArticulo
             // 
-            this.txbPrecioArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbPrecioArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbPrecioArticulo.Location = new System.Drawing.Point(82, 195);
             this.txbPrecioArticulo.Margin = new System.Windows.Forms.Padding(2);
             this.txbPrecioArticulo.Name = "txbPrecioArticulo";
-            this.txbPrecioArticulo.Size = new System.Drawing.Size(274, 20);
+            this.txbPrecioArticulo.Size = new System.Drawing.Size(274, 21);
             this.txbPrecioArticulo.TabIndex = 4;
             // 
             // lblPrecioArticulo
@@ -77,7 +77,7 @@
             // 
             // txbDescripcionArticulo
             // 
-            this.txbDescripcionArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbDescripcionArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbDescripcionArticulo.Location = new System.Drawing.Point(82, 275);
             this.txbDescripcionArticulo.Margin = new System.Windows.Forms.Padding(2);
             this.txbDescripcionArticulo.Multiline = true;
@@ -87,22 +87,22 @@
             // 
             // cmbCategoriaArticulo
             // 
-            this.cmbCategoriaArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbCategoriaArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbCategoriaArticulo.FormattingEnabled = true;
             this.cmbCategoriaArticulo.Location = new System.Drawing.Point(82, 149);
             this.cmbCategoriaArticulo.Margin = new System.Windows.Forms.Padding(2);
             this.cmbCategoriaArticulo.Name = "cmbCategoriaArticulo";
-            this.cmbCategoriaArticulo.Size = new System.Drawing.Size(274, 21);
+            this.cmbCategoriaArticulo.Size = new System.Drawing.Size(274, 23);
             this.cmbCategoriaArticulo.TabIndex = 3;
             // 
             // cmbMarcaArticulo
             // 
-            this.cmbMarcaArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbMarcaArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMarcaArticulo.FormattingEnabled = true;
             this.cmbMarcaArticulo.Location = new System.Drawing.Point(82, 105);
             this.cmbMarcaArticulo.Margin = new System.Windows.Forms.Padding(2);
             this.cmbMarcaArticulo.Name = "cmbMarcaArticulo";
-            this.cmbMarcaArticulo.Size = new System.Drawing.Size(274, 21);
+            this.cmbMarcaArticulo.Size = new System.Drawing.Size(274, 23);
             this.cmbMarcaArticulo.TabIndex = 2;
             // 
             // lblCategoriaArticulo
@@ -127,11 +127,11 @@
             // 
             // txbCodigoArticulo
             // 
-            this.txbCodigoArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbCodigoArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbCodigoArticulo.Location = new System.Drawing.Point(82, 67);
             this.txbCodigoArticulo.Margin = new System.Windows.Forms.Padding(2);
             this.txbCodigoArticulo.Name = "txbCodigoArticulo";
-            this.txbCodigoArticulo.Size = new System.Drawing.Size(274, 20);
+            this.txbCodigoArticulo.Size = new System.Drawing.Size(274, 21);
             this.txbCodigoArticulo.TabIndex = 1;
             // 
             // lblCodigoArticulo
@@ -146,11 +146,11 @@
             // 
             // txbNombreArticulo
             // 
-            this.txbNombreArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbNombreArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbNombreArticulo.Location = new System.Drawing.Point(82, 29);
             this.txbNombreArticulo.Margin = new System.Windows.Forms.Padding(2);
             this.txbNombreArticulo.Name = "txbNombreArticulo";
-            this.txbNombreArticulo.Size = new System.Drawing.Size(274, 20);
+            this.txbNombreArticulo.Size = new System.Drawing.Size(274, 21);
             this.txbNombreArticulo.TabIndex = 0;
             // 
             // lblNombreArticulo
@@ -185,9 +185,10 @@
             // 
             // txtUrlImg
             // 
+            this.txtUrlImg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUrlImg.Location = new System.Drawing.Point(82, 234);
             this.txtUrlImg.Name = "txtUrlImg";
-            this.txtUrlImg.Size = new System.Drawing.Size(274, 20);
+            this.txtUrlImg.Size = new System.Drawing.Size(274, 21);
             this.txtUrlImg.TabIndex = 5;
             // 
             // btnVolver

@@ -56,23 +56,33 @@ namespace TrabajoPractico_2
                 cmbCategoriaArticulo.SelectedValue = articulo.Categoria.Id;
             }
         }
+        private bool validarPrecio(string txtbutton)
+        {
+            foreach (char caracter in txtbutton)
+            {
+                if (char.IsNumber(caracter) && decimal.Parse(txtbutton) >= 0)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             DialogResult confirmacion = MessageBox.Show("¿Desea guardar los cambios?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (confirmacion == DialogResult.Yes)
             {
+                //En caso de que el artículo se vaya a agregar
                 if(articulo == null)
                 {
                     Articulo articulo = new Articulo();
 
+                    //Guardado de los datos
                     articulo.Codigo = txbCodigoArticulo.Text;
                     articulo.Nombre = txbNombreArticulo.Text;
                     articulo.Descripcion = txbDescripcionArticulo.Text;
-                    articulo.Precio = decimal.Parse(txbPrecioArticulo.Text);
-                    articulo.UrlImagen = txtUrlImg.Text;
-
-                    // Validar Marca y Categoria
+                    // Validar Marca, Categoria y Precio
                     if (cmbMarcaArticulo.SelectedIndex < 0)
                     {
                         MessageBox.Show("Seleccione una marca válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -84,6 +94,21 @@ namespace TrabajoPractico_2
                         MessageBox.Show("Seleccione una categoría válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     articulo.Categoria = (Categoria)cmbCategoriaArticulo.SelectedItem;
+                    try
+                    {
+                        if (!(validarPrecio(txbPrecioArticulo.Text)))
+                        {
+                            MessageBox.Show("Por favor, introducir un precio válido (número entre 0 y cualquier positivo, y los decimales se pueden escribir con punto o coma)");
+                            return;
+                        }
+                        articulo.Precio = decimal.Parse(txbPrecioArticulo.Text);
+                    }
+                    catch (Exception exc)
+                    {
+                        MessageBox.Show("Por favor, introducir un precio válido (número entre 0 y cualquier positivo, y los decimales se pueden escribir con punto o coma)");
+                        return;
+                    }
+                    articulo.UrlImagen = txtUrlImg.Text;
 
                     ArticuloNegocio articuloNegocio = new ArticuloNegocio();
 
@@ -97,6 +122,7 @@ namespace TrabajoPractico_2
                     }
 
                 }
+                //En caso de que el artículo se vaya a modificar
                 else
                 {
                     articulo.Codigo = txbCodigoArticulo.Text;
@@ -121,7 +147,7 @@ namespace TrabajoPractico_2
                     ArticuloNegocio articuloNegocio = new ArticuloNegocio();
 
                     articuloNegocio.modificar(articulo);
-                    MessageBox.Show("El articulo se modifico correctamente.", "Modificado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("El articulo se modificó correctamente.", "Modificado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                     
 
