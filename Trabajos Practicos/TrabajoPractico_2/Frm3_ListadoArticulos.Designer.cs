@@ -66,7 +66,7 @@
             this.Controls.Add(this.dgvArticulos);
             this.Name = "Frm3_ListadoArticulos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Listar Articulos";
+            this.Text = "Listar Todos Los Artículos";
             this.Load += new System.EventHandler(this.Frm3_ListadoArticulos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).EndInit();

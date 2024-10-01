@@ -62,7 +62,7 @@
             this.eliminarToolStripMenuItem});
             this.articuloToolStripMenuItem.Name = "articuloToolStripMenuItem";
             this.articuloToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.articuloToolStripMenuItem.Text = "&Articulo";
+            this.articuloToolStripMenuItem.Text = "&Artículo";
             // 
             // agregarToolStripMenuItem
             // 

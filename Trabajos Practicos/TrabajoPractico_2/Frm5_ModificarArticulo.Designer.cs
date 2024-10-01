@@ -60,9 +60,11 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(12, 296);
+            this.btnModificar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificar.Location = new System.Drawing.Point(12, 284);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(104, 23);
+            this.btnModificar.Size = new System.Drawing.Size(104, 35);
             this.btnModificar.TabIndex = 3;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
@@ -79,7 +81,8 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Frm5_ModificarArticulo";
-            this.Text = "Frm5_ModificarArticulo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Modificar Un Artículo";
             this.Load += new System.EventHandler(this.Frm5_ModificarArticulo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).EndInit();
