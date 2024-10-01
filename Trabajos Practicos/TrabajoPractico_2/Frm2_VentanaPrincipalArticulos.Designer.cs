@@ -94,20 +94,22 @@
             this.listarTodosLosArticulosToolStripMenuItem,
             this.filtrosToolStripMenuItem});
             this.articulosToolStripMenuItem.Name = "articulosToolStripMenuItem";
-            this.articulosToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
-            this.articulosToolStripMenuItem.Text = "Listado&S";
+            this.articulosToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
+            this.articulosToolStripMenuItem.Text = "&Listados";
             // 
             // listarTodosLosArticulosToolStripMenuItem
             // 
             this.listarTodosLosArticulosToolStripMenuItem.Name = "listarTodosLosArticulosToolStripMenuItem";
-            this.listarTodosLosArticulosToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.listarTodosLosArticulosToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
+            this.listarTodosLosArticulosToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
             this.listarTodosLosArticulosToolStripMenuItem.Text = "&Listar todos los articulos";
             this.listarTodosLosArticulosToolStripMenuItem.Click += new System.EventHandler(this.listarTodosLosArticulosToolStripMenuItem_Click);
             // 
             // filtrosToolStripMenuItem
             // 
             this.filtrosToolStripMenuItem.Name = "filtrosToolStripMenuItem";
-            this.filtrosToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.filtrosToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
+            this.filtrosToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
             this.filtrosToolStripMenuItem.Text = "Filtros...";
             this.filtrosToolStripMenuItem.Click += new System.EventHandler(this.filtrosToolStripMenuItem_Click);
             // 
