@@ -80,10 +80,10 @@
             // btnDevsBy
             // 
             this.btnDevsBy.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDevsBy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDevsBy.Location = new System.Drawing.Point(588, 393);
+            this.btnDevsBy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDevsBy.Location = new System.Drawing.Point(581, 393);
             this.btnDevsBy.Name = "btnDevsBy";
-            this.btnDevsBy.Size = new System.Drawing.Size(131, 24);
+            this.btnDevsBy.Size = new System.Drawing.Size(138, 24);
             this.btnDevsBy.TabIndex = 4;
             this.btnDevsBy.Text = "Desarrollado por...";
             this.btnDevsBy.UseVisualStyleBackColor = true;

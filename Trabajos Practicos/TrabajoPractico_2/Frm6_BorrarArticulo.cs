@@ -28,6 +28,7 @@ namespace TrabajoPractico_2
                 listaArticulos = articulos.listaArticulos();
                 dgvArticulos.DataSource = listaArticulos;
                 dgvArticulos.Columns["UrlImagen"].Visible = false;
+                dgvArticulos.Columns["Id"].Visible = false;
                 cargarImagen(listaArticulos[0].UrlImagen);
             }
             catch (ArgumentOutOfRangeException)
