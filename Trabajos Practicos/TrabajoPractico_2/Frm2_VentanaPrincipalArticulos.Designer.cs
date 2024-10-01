@@ -36,7 +36,6 @@
             this.articulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listarTodosLosArticulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.filtrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.tsslDatosEstadoSesion = new System.Windows.Forms.ToolStripStatusLabel();
             this.mnsAcciones.SuspendLayout();
@@ -48,8 +47,7 @@
             this.mnsAcciones.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.mnsAcciones.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.articuloToolStripMenuItem,
-            this.articulosToolStripMenuItem,
-            this.aboutToolStripMenuItem});
+            this.articulosToolStripMenuItem});
             this.mnsAcciones.Location = new System.Drawing.Point(0, 0);
             this.mnsAcciones.Name = "mnsAcciones";
             this.mnsAcciones.Size = new System.Drawing.Size(722, 24);
@@ -113,12 +111,6 @@
             this.filtrosToolStripMenuItem.Text = "Filtros...";
             this.filtrosToolStripMenuItem.Click += new System.EventHandler(this.filtrosToolStripMenuItem_Click);
             // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.aboutToolStripMenuItem.Text = "About...";
-            // 
             // statusStrip1
             // 
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
@@ -167,7 +159,6 @@
         private System.Windows.Forms.ToolStripMenuItem eliminarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem articulosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listarTodosLosArticulosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel tsslDatosEstadoSesion;
         private System.Windows.Forms.ToolStripMenuItem filtrosToolStripMenuItem;
