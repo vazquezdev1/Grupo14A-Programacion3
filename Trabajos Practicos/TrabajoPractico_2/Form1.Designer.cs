@@ -40,10 +40,10 @@
             this.btnInicio.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnInicio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnInicio.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInicio.Location = new System.Drawing.Point(295, 249);
             this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Size = new System.Drawing.Size(141, 52);
+            this.btnInicio.Size = new System.Drawing.Size(146, 52);
             this.btnInicio.TabIndex = 3;
             this.btnInicio.Text = "Iniciar Sistema";
             this.btnInicio.UseVisualStyleBackColor = false;
@@ -61,9 +61,10 @@
             // 
             // txtUserName
             // 
+            this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserName.Location = new System.Drawing.Point(284, 192);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(165, 20);
+            this.txtUserName.Size = new System.Drawing.Size(165, 22);
             this.txtUserName.TabIndex = 2;
             // 
             // lblIngreseUserName
