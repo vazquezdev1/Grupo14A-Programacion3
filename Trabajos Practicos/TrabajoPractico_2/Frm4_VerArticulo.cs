@@ -78,22 +78,24 @@ namespace TrabajoPractico_2
                 {
                     Articulo articulo = new Articulo();
 
-                    //Guardado de los datos
-                    articulo.Codigo = txbCodigoArticulo.Text;
+                    //Guardar campos que no requieren validación
                     articulo.Nombre = txbNombreArticulo.Text;
+                    articulo.Codigo = txbCodigoArticulo.Text;
+                    articulo.UrlImagen = txtUrlImg.Text;
                     articulo.Descripcion = txbDescripcionArticulo.Text;
-                    // Validar Marca, Categoria y Precio
+                    //Validar Marca
                     if (cmbMarcaArticulo.SelectedIndex < 0)
                     {
                         MessageBox.Show("Seleccione una marca válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     articulo.Marca = (Marca)cmbMarcaArticulo.SelectedItem;
-
+                    //Validar Categoria
                     if (cmbCategoriaArticulo.SelectedIndex < 0)
                     {
                         MessageBox.Show("Seleccione una categoría válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     articulo.Categoria = (Categoria)cmbCategoriaArticulo.SelectedItem;
+                    //Validar Precio
                     try
                     {
                         if (!(validarPrecio(txbPrecioArticulo.Text)))
@@ -108,8 +110,7 @@ namespace TrabajoPractico_2
                         MessageBox.Show("Por favor, introducir un precio válido (número entre 0 y cualquier positivo, y los decimales se pueden escribir con punto o coma)");
                         return;
                     }
-                    articulo.UrlImagen = txtUrlImg.Text;
-
+                    //Guardar en Base de Datos
                     ArticuloNegocio articuloNegocio = new ArticuloNegocio();
 
                     if(articuloNegocio.agregar(articulo) != 0)
@@ -125,32 +126,45 @@ namespace TrabajoPractico_2
                 //En caso de que el artículo se vaya a modificar
                 else
                 {
-                    articulo.Codigo = txbCodigoArticulo.Text;
+                    //Guardar campos que no requieren validación
                     articulo.Nombre = txbNombreArticulo.Text;
-                    articulo.Descripcion = txbDescripcionArticulo.Text;
-                    articulo.Precio = decimal.Parse(txbPrecioArticulo.Text);
+                    articulo.Codigo = txbCodigoArticulo.Text;
                     articulo.UrlImagen = txtUrlImg.Text;
-
-                    // Validar Marca y Categoria
+                    articulo.Descripcion = txbDescripcionArticulo.Text;
+                    //Validar Marca
                     if (cmbMarcaArticulo.SelectedIndex < 0)
                     {
                         MessageBox.Show("Seleccione una marca válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     articulo.Marca = (Marca)cmbMarcaArticulo.SelectedItem;
-
+                    //Validar Categoria
                     if (cmbCategoriaArticulo.SelectedIndex < 0)
                     {
                         MessageBox.Show("Seleccione una categoría válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     articulo.Categoria = (Categoria)cmbCategoriaArticulo.SelectedItem;
-
+                    //Validar Precio
+                    try
+                    {
+                        if (!(validarPrecio(txbPrecioArticulo.Text)))
+                        {
+                            MessageBox.Show("Por favor, introducir un precio válido (número entre 0 y cualquier positivo, y los decimales se pueden escribir con punto o coma)");
+                            return;
+                        }
+                        articulo.Precio = decimal.Parse(txbPrecioArticulo.Text);
+                    }
+                    catch (Exception exc)
+                    {
+                        MessageBox.Show("Por favor, introducir un precio válido (número entre 0 y cualquier positivo, y los decimales se pueden escribir con punto o coma)");
+                        return;
+                    }
+                    //Guardar en Base de Datos
                     ArticuloNegocio articuloNegocio = new ArticuloNegocio();
 
                     articuloNegocio.modificar(articulo);
                     MessageBox.Show("El articulo se modificó correctamente.", "Modificado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 this.Close();
-                
             }
         }
         private void btnVolver_Click(object sender, EventArgs e)
