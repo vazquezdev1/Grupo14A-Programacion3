@@ -67,7 +67,7 @@
             // 
             this.lblIngreseUserName.AutoSize = true;
             this.lblIngreseUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngreseUserName.Location = new System.Drawing.Point(107, 159);
+            this.lblIngreseUserName.Location = new System.Drawing.Point(258, 160);
             this.lblIngreseUserName.Name = "lblIngreseUserName";
             this.lblIngreseUserName.Size = new System.Drawing.Size(216, 20);
             this.lblIngreseUserName.TabIndex = 1;
