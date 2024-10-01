@@ -58,7 +58,7 @@
             // lblPrecioArticulo
             // 
             this.lblPrecioArticulo.AutoSize = true;
-            this.lblPrecioArticulo.Location = new System.Drawing.Point(22, 195);
+            this.lblPrecioArticulo.Location = new System.Drawing.Point(16, 195);
             this.lblPrecioArticulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPrecioArticulo.Name = "lblPrecioArticulo";
             this.lblPrecioArticulo.Size = new System.Drawing.Size(40, 13);
@@ -68,7 +68,7 @@
             // lblDescripcionArticulo
             // 
             this.lblDescripcionArticulo.AutoSize = true;
-            this.lblDescripcionArticulo.Location = new System.Drawing.Point(22, 278);
+            this.lblDescripcionArticulo.Location = new System.Drawing.Point(16, 278);
             this.lblDescripcionArticulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDescripcionArticulo.Name = "lblDescripcionArticulo";
             this.lblDescripcionArticulo.Size = new System.Drawing.Size(66, 13);
@@ -78,11 +78,11 @@
             // txbDescripcionArticulo
             // 
             this.txbDescripcionArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbDescripcionArticulo.Location = new System.Drawing.Point(86, 275);
+            this.txbDescripcionArticulo.Location = new System.Drawing.Point(82, 275);
             this.txbDescripcionArticulo.Margin = new System.Windows.Forms.Padding(2);
             this.txbDescripcionArticulo.Multiline = true;
             this.txbDescripcionArticulo.Name = "txbDescripcionArticulo";
-            this.txbDescripcionArticulo.Size = new System.Drawing.Size(270, 87);
+            this.txbDescripcionArticulo.Size = new System.Drawing.Size(274, 87);
             this.txbDescripcionArticulo.TabIndex = 6;
             // 
             // cmbCategoriaArticulo
@@ -108,7 +108,7 @@
             // lblCategoriaArticulo
             // 
             this.lblCategoriaArticulo.AutoSize = true;
-            this.lblCategoriaArticulo.Location = new System.Drawing.Point(22, 151);
+            this.lblCategoriaArticulo.Location = new System.Drawing.Point(16, 152);
             this.lblCategoriaArticulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCategoriaArticulo.Name = "lblCategoriaArticulo";
             this.lblCategoriaArticulo.Size = new System.Drawing.Size(55, 13);
@@ -118,7 +118,7 @@
             // lblMarcaArticulo
             // 
             this.lblMarcaArticulo.AutoSize = true;
-            this.lblMarcaArticulo.Location = new System.Drawing.Point(22, 110);
+            this.lblMarcaArticulo.Location = new System.Drawing.Point(16, 108);
             this.lblMarcaArticulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMarcaArticulo.Name = "lblMarcaArticulo";
             this.lblMarcaArticulo.Size = new System.Drawing.Size(40, 13);
@@ -137,7 +137,7 @@
             // lblCodigoArticulo
             // 
             this.lblCodigoArticulo.AutoSize = true;
-            this.lblCodigoArticulo.Location = new System.Drawing.Point(22, 67);
+            this.lblCodigoArticulo.Location = new System.Drawing.Point(16, 67);
             this.lblCodigoArticulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCodigoArticulo.Name = "lblCodigoArticulo";
             this.lblCodigoArticulo.Size = new System.Drawing.Size(43, 13);
@@ -156,7 +156,7 @@
             // lblNombreArticulo
             // 
             this.lblNombreArticulo.AutoSize = true;
-            this.lblNombreArticulo.Location = new System.Drawing.Point(22, 29);
+            this.lblNombreArticulo.Location = new System.Drawing.Point(16, 29);
             this.lblNombreArticulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNombreArticulo.Name = "lblNombreArticulo";
             this.lblNombreArticulo.Size = new System.Drawing.Size(47, 13);
@@ -177,7 +177,7 @@
             // LblUrlImg
             // 
             this.LblUrlImg.AutoSize = true;
-            this.LblUrlImg.Location = new System.Drawing.Point(25, 234);
+            this.LblUrlImg.Location = new System.Drawing.Point(16, 234);
             this.LblUrlImg.Name = "LblUrlImg";
             this.LblUrlImg.Size = new System.Drawing.Size(49, 13);
             this.LblUrlImg.TabIndex = 10;

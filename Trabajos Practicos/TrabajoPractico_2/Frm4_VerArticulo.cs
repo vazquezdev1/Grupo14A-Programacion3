@@ -29,7 +29,33 @@ namespace TrabajoPractico_2
             this.articulo = articulo;
             Text = "Modificacion de Articulo";
         }
+        private void Frm4_VerArticulo_Load(object sender, EventArgs e)
+        {
+            //cargar Marcas en el ComboBox
+            MarcaNegocio marcaNegocio = new MarcaNegocio();
+            List<Marca> marcas = marcaNegocio.listar();
+            cmbMarcaArticulo.DataSource = marcas;
+            cmbMarcaArticulo.DisplayMember = "descripcion";
+            cmbMarcaArticulo.ValueMember = "id";
 
+            //cargar Categoria en el ComboBox
+            CategoriaNegocio categoriaNegocio = new CategoriaNegocio();
+            List<Categoria> categorias = categoriaNegocio.listar();
+            cmbCategoriaArticulo.DataSource = categorias;
+            cmbCategoriaArticulo.DisplayMember = "descripcion";
+            cmbCategoriaArticulo.ValueMember = "id";
+
+            if (articulo != null)
+            {
+                txbNombreArticulo.Text = articulo.Nombre;
+                txbCodigoArticulo.Text = articulo.Codigo;
+                txbPrecioArticulo.Text = articulo.Precio.ToString();
+                txtUrlImg.Text = articulo.UrlImagen;
+                txbDescripcionArticulo.Text = articulo.Descripcion;
+                cmbMarcaArticulo.SelectedValue = articulo.Marca.Id;
+                cmbCategoriaArticulo.SelectedValue = articulo.Categoria.Id;
+            }
+        }
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             DialogResult confirmacion = MessageBox.Show("¿Desea guardar los cambios?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -110,34 +136,6 @@ namespace TrabajoPractico_2
                 
                 this.Close();
                 
-            }
-        }
-
-        private void Frm4_VerArticulo_Load(object sender, EventArgs e)
-        {
-            //cargar Marcas en el ComboBox
-            MarcaNegocio marcaNegocio = new MarcaNegocio();
-            List<Marca> marcas = marcaNegocio.listar();
-            cmbMarcaArticulo.DataSource = marcas;
-            cmbMarcaArticulo.DisplayMember = "descripcion";
-            cmbMarcaArticulo.ValueMember = "id";
-
-            //cargar Categoria en el ComboBox
-            CategoriaNegocio categoriaNegocio = new CategoriaNegocio();
-            List<Categoria> categorias = categoriaNegocio.listar();
-            cmbCategoriaArticulo.DataSource = categorias;
-            cmbCategoriaArticulo.DisplayMember = "descripcion";
-            cmbCategoriaArticulo.ValueMember = "id";
-
-            if(articulo != null)
-            {
-                txbNombreArticulo.Text = articulo.Nombre;
-                txbCodigoArticulo.Text = articulo.Codigo;
-                txbPrecioArticulo.Text = articulo.Precio.ToString();
-                txtUrlImg.Text = articulo.UrlImagen;
-                txbDescripcionArticulo.Text = articulo.Descripcion;
-                cmbMarcaArticulo.SelectedValue = articulo.Marca.Id;
-                cmbCategoriaArticulo.SelectedValue = articulo.Categoria.Id;
             }
         }
 
