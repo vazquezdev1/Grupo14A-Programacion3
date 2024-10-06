@@ -14,35 +14,34 @@ namespace negocio
         public List<Articulo> listaArticulos()
         {
             List<Articulo> lista = new List<Articulo>();
-            /*
-            SqlConnection conexion = new SqlConnection(); // Setear conexion
-            SqlCommand comando = new SqlCommand(); // Realiza acciones
-            SqlDataReader lector; // No se crea instancia - aloja datos - no se crea instancia por que no se tiene un constructor
-            */
             AccesoDatos datos = new AccesoDatos();
-
             try
             {
-                //string consulta = "SELECT a.Id, a.Codigo, a.Nombre, a.Descripcion, a.Precio, m.Descripcion as Marca, c.Descripcion as Categoria, i.ImagenUrl FROM ARTICULOS a INNER JOIN IMAGENES i ON a.Id = i.IdArticulo INNER JOIN MARCAS m ON a.IdMarca = m.Id INNER JOIN CATEGORIAS c ON a.IdCategoria = c.Id";
-                string consulta = "SELECT a.Id, a.Codigo, a.Nombre, a.Descripcion, a.IdCategoria, a.IdMarca, a.Precio, m.Descripcion as Marca, c.Descripcion as Categoria, i.ImagenUrl FROM ARTICULOS a INNER JOIN IMAGENES i ON a.Id = i.IdArticulo INNER JOIN MARCAS m ON a.IdMarca = m.Id INNER JOIN CATEGORIAS c ON a.IdCategoria = c.Id";
-
+                string consulta = "SELECT a.Id, a.Codigo, a.Nombre, a.Descripcion, a.IdCategoria as 'ID Categoria', a.IdMarca as 'ID Marca', a.Precio, m.Descripcion as Marca, c.Descripcion as Categoria, i.ImagenUrl FROM ARTICULOS a INNER JOIN IMAGENES i ON a.Id = i.IdArticulo LEFT JOIN MARCAS m ON a.IdMarca = m.Id LEFT JOIN CATEGORIAS c ON a.IdCategoria = c.Id";
                 datos.setearConsulta(consulta);
                 datos.ejecutarLectura();
-
                 while (datos.Lector.Read())
                 {
                     Articulo aux = new Articulo();
-                    aux.Id = datos.Lector.GetInt32(0);
-                    aux.Codigo = datos.Lector.GetString(1);
-                    aux.Nombre = datos.Lector.GetString(2);
-                    aux.Descripcion = (string)datos.Lector["Descripcion"]; // Esta opcion realmente es mas comoda
-                    aux.Precio = datos.Lector.GetDecimal(6);
+                    aux.Id = (Int32)datos.Lector["Id"];
+                    aux.Codigo = (string)datos.Lector["Codigo"];
+                    aux.Nombre = (string)datos.Lector["Nombre"];
+                    aux.Descripcion = (string)datos.Lector["Descripcion"];
+                    aux.Precio = (decimal)datos.Lector["Precio"];
                     aux.Marca = new Marca();
-                    aux.Marca.Id = datos.Lector.GetInt32(4);
+                    aux.Marca.Id = (Int32)datos.Lector["ID Marca"];
                     aux.Marca.Descripcion = (string)datos.Lector["Marca"];
                     aux.Categoria = new Categoria();
-                    aux.Categoria.Id = datos.Lector.GetInt32(5);
-                    aux.Categoria.Descripcion = (string)datos.Lector["Categoria"];
+                    aux.Categoria.Id = (Int32)datos.Lector["ID Categoria"];
+                    ///Validación de NULL para la categoría
+                    if (!(datos.Lector["Categoria"] is DBNull))
+                    {
+                        aux.Categoria.Descripcion = (string)datos.Lector["Categoria"];
+                    }
+                    else
+                    {
+                        aux.Categoria.Descripcion = "Ninguna";
+                    }
                     aux.UrlImagen = (string)datos.Lector["ImagenUrl"];
 
                     lista.Add(aux);
