@@ -32,7 +32,6 @@ namespace TrabajoPractico_2
             }
 
             Frm3_ListadoArticulos ventanaListadoArticulos = new Frm3_ListadoArticulos();
-            //ventanaListadoArticulos.MdiParent = this;
             ventanaListadoArticulos.Show();
         }
 
