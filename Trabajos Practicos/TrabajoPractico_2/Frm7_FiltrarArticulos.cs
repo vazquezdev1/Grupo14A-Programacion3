@@ -51,7 +51,7 @@ namespace TrabajoPractico_2_Grupo14A
             
         }
 
-        private void cargarImagen(String imagen)
+        private void cargarImagen(string imagen)
         {
             try
             {

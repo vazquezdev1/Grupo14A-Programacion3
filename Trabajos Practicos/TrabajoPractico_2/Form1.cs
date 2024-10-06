@@ -45,10 +45,5 @@ namespace TrabajoPractico_2
         {
             MessageBox.Show("Grupo 14 A: Alejandro Gomez - Henry Vazquez - Pablo Felice");
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

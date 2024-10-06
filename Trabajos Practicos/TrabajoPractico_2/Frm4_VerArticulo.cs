@@ -31,14 +31,14 @@ namespace TrabajoPractico_2
         }
         private void Frm4_VerArticulo_Load(object sender, EventArgs e)
         {
-            //cargar Marcas en el ComboBox
+            //Cargar Marcas en el ComboBox
             MarcaNegocio marcaNegocio = new MarcaNegocio();
             List<Marca> marcas = marcaNegocio.listar();
             cmbMarcaArticulo.DataSource = marcas;
             cmbMarcaArticulo.DisplayMember = "descripcion";
             cmbMarcaArticulo.ValueMember = "id";
 
-            //cargar Categoria en el ComboBox
+            //Cargar Categoria en el ComboBox
             CategoriaNegocio categoriaNegocio = new CategoriaNegocio();
             List<Categoria> categorias = categoriaNegocio.listar();
             cmbCategoriaArticulo.DataSource = categorias;

@@ -82,7 +82,6 @@ namespace TrabajoPractico_2
             }
 
             Frm7_FiltrarArticulos ventanaFiltroArticulos = new Frm7_FiltrarArticulos();
-            //ventanaListadoArticulos.MdiParent = this;
             ventanaFiltroArticulos.Show();
         }
     }

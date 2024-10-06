@@ -42,7 +42,7 @@ namespace TrabajoPractico_2
             Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
             cargarImagen(seleccionado.UrlImagen);
         }
-        private void cargarImagen(String imagen)
+        private void cargarImagen(string imagen)
         {
             try
             {
