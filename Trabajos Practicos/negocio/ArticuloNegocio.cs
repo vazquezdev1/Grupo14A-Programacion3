@@ -33,7 +33,7 @@ namespace negocio
                     aux.Marca.Descripcion = (string)datos.Lector["Marca"];
                     aux.Categoria = new Categoria();
                     aux.Categoria.Id = (Int32)datos.Lector["ID Categoria"];
-                    ///Validación de NULL para la categoría
+                    //Validación de NULL para la categoría
                     if (!(datos.Lector["Categoria"] is DBNull))
                     {
                         aux.Categoria.Descripcion = (string)datos.Lector["Categoria"];

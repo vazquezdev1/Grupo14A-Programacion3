@@ -22,8 +22,8 @@ namespace TrabajoPractico_2
             Text = "Alta de Articulo";
         }
 
-        private Articulo articulo = null; // Atributo privado para usarlo con el MODIFICAR ARTICULO
-        public Frm4_VerArticulo(Articulo articulo) // Constructor utilizado para MODIFICAR ARTICULO
+        private Articulo articulo = null; //Atributo privado para usarlo con el MODIFICAR ARTICULO
+        public Frm4_VerArticulo(Articulo articulo) //Constructor utilizado para MODIFICAR ARTICULO
         {
             InitializeComponent();
             this.articulo = articulo;
