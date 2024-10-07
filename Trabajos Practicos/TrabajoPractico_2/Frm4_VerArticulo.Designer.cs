@@ -47,6 +47,9 @@
             this.lblAsterisco1 = new System.Windows.Forms.Label();
             this.lblAclaracion = new System.Windows.Forms.Label();
             this.lblAsterisco2 = new System.Windows.Forms.Label();
+            this.pbxArticulo = new System.Windows.Forms.PictureBox();
+            this.btnAgregarImagen = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
             this.SuspendLayout();
             // 
             // txbPrecioArticulo
@@ -196,10 +199,10 @@
             this.txtUrlImg.Name = "txtUrlImg";
             this.txtUrlImg.Size = new System.Drawing.Size(274, 21);
             this.txtUrlImg.TabIndex = 5;
+            this.txtUrlImg.Leave += new System.EventHandler(this.txtUrlImg_Leave);
             // 
             // btnVolver
             // 
-            this.btnVolver.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnVolver.AutoSize = true;
             this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -243,12 +246,34 @@
             this.lblAsterisco2.TabIndex = 15;
             this.lblAsterisco2.Text = "*";
             // 
+            // pbxArticulo
+            // 
+            this.pbxArticulo.Location = new System.Drawing.Point(519, 31);
+            this.pbxArticulo.Margin = new System.Windows.Forms.Padding(1);
+            this.pbxArticulo.Name = "pbxArticulo";
+            this.pbxArticulo.Size = new System.Drawing.Size(306, 266);
+            this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxArticulo.TabIndex = 16;
+            this.pbxArticulo.TabStop = false;
+            // 
+            // btnAgregarImagen
+            // 
+            this.btnAgregarImagen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarImagen.Location = new System.Drawing.Point(390, 217);
+            this.btnAgregarImagen.Name = "btnAgregarImagen";
+            this.btnAgregarImagen.Size = new System.Drawing.Size(100, 55);
+            this.btnAgregarImagen.TabIndex = 17;
+            this.btnAgregarImagen.Text = "Agregar\r\nImagen";
+            this.btnAgregarImagen.UseVisualStyleBackColor = true;
+            // 
             // Frm4_VerArticulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(434, 485);
+            this.ClientSize = new System.Drawing.Size(867, 475);
+            this.Controls.Add(this.btnAgregarImagen);
+            this.Controls.Add(this.pbxArticulo);
             this.Controls.Add(this.lblAsterisco2);
             this.Controls.Add(this.lblAclaracion);
             this.Controls.Add(this.lblAsterisco1);
@@ -275,6 +300,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Detalle de Artículo";
             this.Load += new System.EventHandler(this.Frm4_VerArticulo_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -301,5 +327,7 @@
         private System.Windows.Forms.Label lblAsterisco1;
         private System.Windows.Forms.Label lblAclaracion;
         private System.Windows.Forms.Label lblAsterisco2;
+        private System.Windows.Forms.PictureBox pbxArticulo;
+        private System.Windows.Forms.Button btnAgregarImagen;
     }
 }

@@ -55,6 +55,7 @@ namespace TrabajoPractico_2
                 cmbMarcaArticulo.SelectedValue = articulo.Marca.Id;
                 cmbCategoriaArticulo.SelectedValue = articulo.Categoria.Id;
             }
+            cargarImagen(txtUrlImg.Text);
         }
         private bool validarPrecio(string txtbutton)
         {
@@ -66,6 +67,21 @@ namespace TrabajoPractico_2
                 }
             }
             return false;
+        }
+        private void txtUrlImg_Leave(object sender, EventArgs e)
+        {
+            cargarImagen(txtUrlImg.Text);
+        }
+        private void cargarImagen(string imagen)
+        {
+            try
+            {
+                pbxArticulo.Load(imagen);
+            }
+            catch (Exception e)
+            {
+                pbxArticulo.Load("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
+            }
         }
         private void btnGuardar_Click(object sender, EventArgs e)
         {
