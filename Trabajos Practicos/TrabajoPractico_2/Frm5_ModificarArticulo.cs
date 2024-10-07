@@ -45,7 +45,7 @@ namespace TrabajoPractico_2_Grupo14A
             cargarImagen(seleccionado.UrlImagen);
         }
 
-        private void cargarImagen(String imagen)
+        private void cargarImagen(string imagen)
         {
             try
             {

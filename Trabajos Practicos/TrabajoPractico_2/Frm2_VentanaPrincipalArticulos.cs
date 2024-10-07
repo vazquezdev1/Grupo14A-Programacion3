@@ -32,7 +32,6 @@ namespace TrabajoPractico_2
             }
 
             Frm3_ListadoArticulos ventanaListadoArticulos = new Frm3_ListadoArticulos();
-            //ventanaListadoArticulos.MdiParent = this;
             ventanaListadoArticulos.Show();
         }
 
@@ -83,7 +82,6 @@ namespace TrabajoPractico_2
             }
 
             Frm7_FiltrarArticulos ventanaFiltroArticulos = new Frm7_FiltrarArticulos();
-            //ventanaListadoArticulos.MdiParent = this;
             ventanaFiltroArticulos.Show();
         }
     }
