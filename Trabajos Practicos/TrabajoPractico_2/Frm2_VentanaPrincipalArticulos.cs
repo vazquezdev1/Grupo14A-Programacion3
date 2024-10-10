@@ -86,5 +86,35 @@ namespace TrabajoPractico_2
             //ventanaListadoArticulos.MdiParent = this;
             ventanaFiltroArticulos.Show();
         }
+
+        private void aBMMarcasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (var item in Application.OpenForms)
+            {
+                if (item.GetType() == typeof(Frm8_Marcas))
+                {
+                    MessageBox.Show("No puede abrir más de una vez esta ventana");
+                    return;
+                }
+            }
+
+            Frm8_Marcas ventanaMarcas = new Frm8_Marcas();
+            ventanaMarcas.Show();
+        }
+
+        private void aBMCategoriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (var item in Application.OpenForms)
+            {
+                if (item.GetType() == typeof(Frm10_Categorias))
+                {
+                    MessageBox.Show("No puede abrir más de una vez esta ventana");
+                    return;
+                }
+            }
+
+            Frm10_Categorias ventanaMarcas = new Frm10_Categorias();
+            ventanaMarcas.Show();
+        }
     }
 }

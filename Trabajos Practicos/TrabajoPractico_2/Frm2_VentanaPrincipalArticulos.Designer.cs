@@ -35,10 +35,14 @@
             this.eliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.articulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listarTodosLosArticulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.filtrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.marcasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBMMarcasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.categoriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBMCategoriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.tsslDatosEstadoSesion = new System.Windows.Forms.ToolStripStatusLabel();
-            this.filtrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnsAcciones.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -49,7 +53,9 @@
             this.mnsAcciones.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.articuloToolStripMenuItem,
             this.articulosToolStripMenuItem,
-            this.aboutToolStripMenuItem});
+            this.aboutToolStripMenuItem,
+            this.marcasToolStripMenuItem,
+            this.categoriasToolStripMenuItem});
             this.mnsAcciones.Location = new System.Drawing.Point(0, 0);
             this.mnsAcciones.Name = "mnsAcciones";
             this.mnsAcciones.Size = new System.Drawing.Size(722, 24);
@@ -106,11 +112,48 @@
             this.listarTodosLosArticulosToolStripMenuItem.Text = "&Listar todos los articulos";
             this.listarTodosLosArticulosToolStripMenuItem.Click += new System.EventHandler(this.listarTodosLosArticulosToolStripMenuItem_Click);
             // 
+            // filtrosToolStripMenuItem
+            // 
+            this.filtrosToolStripMenuItem.Name = "filtrosToolStripMenuItem";
+            this.filtrosToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.filtrosToolStripMenuItem.Text = "Filtros...";
+            this.filtrosToolStripMenuItem.Click += new System.EventHandler(this.filtrosToolStripMenuItem_Click);
+            // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.aboutToolStripMenuItem.Text = "About...";
+            // 
+            // marcasToolStripMenuItem
+            // 
+            this.marcasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aBMMarcasToolStripMenuItem});
+            this.marcasToolStripMenuItem.Name = "marcasToolStripMenuItem";
+            this.marcasToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.marcasToolStripMenuItem.Text = "Marcas";
+            // 
+            // aBMMarcasToolStripMenuItem
+            // 
+            this.aBMMarcasToolStripMenuItem.Name = "aBMMarcasToolStripMenuItem";
+            this.aBMMarcasToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.aBMMarcasToolStripMenuItem.Text = "ABM Marcas";
+            this.aBMMarcasToolStripMenuItem.Click += new System.EventHandler(this.aBMMarcasToolStripMenuItem_Click);
+            // 
+            // categoriasToolStripMenuItem
+            // 
+            this.categoriasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aBMCategoriasToolStripMenuItem});
+            this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
+            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.categoriasToolStripMenuItem.Text = "Categorias";
+            // 
+            // aBMCategoriasToolStripMenuItem
+            // 
+            this.aBMCategoriasToolStripMenuItem.Name = "aBMCategoriasToolStripMenuItem";
+            this.aBMCategoriasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aBMCategoriasToolStripMenuItem.Text = "ABM Categorias";
+            this.aBMCategoriasToolStripMenuItem.Click += new System.EventHandler(this.aBMCategoriasToolStripMenuItem_Click);
             // 
             // statusStrip1
             // 
@@ -128,13 +171,6 @@
             this.tsslDatosEstadoSesion.Name = "tsslDatosEstadoSesion";
             this.tsslDatosEstadoSesion.Size = new System.Drawing.Size(44, 17);
             this.tsslDatosEstadoSesion.Text = "FECHA";
-            // 
-            // filtrosToolStripMenuItem
-            // 
-            this.filtrosToolStripMenuItem.Name = "filtrosToolStripMenuItem";
-            this.filtrosToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
-            this.filtrosToolStripMenuItem.Text = "Filtros...";
-            this.filtrosToolStripMenuItem.Click += new System.EventHandler(this.filtrosToolStripMenuItem_Click);
             // 
             // Frm2_VentanaPrincipalArticulos
             // 
@@ -171,5 +207,9 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel tsslDatosEstadoSesion;
         private System.Windows.Forms.ToolStripMenuItem filtrosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem marcasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aBMMarcasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem categoriasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aBMCategoriasToolStripMenuItem;
     }
 }
